@@ -165,7 +165,17 @@
   cursor: pointer;
 }
 /* products section ends */
+/* invite section starts */
+.invite{ 
+  margin: 80px auto;
+  gap: 70px;
+  justify-content: start;
+}
 
+.invite .btn{
+  border-radius: 0%;
+}
+/* invite section ends */
 
 
 
@@ -192,7 +202,7 @@
   }
   .sm-navbar{
     margin: 1.25rem auto;
-    display: flow-root;
+    display: block;
   }
   .sm-navbar ul li a{
     color: #3A3A3A;
@@ -217,6 +227,10 @@
   .banner .img-container img{
     width: 100%;
   }
+  .section-title{
+    font-size: 1.5rem;
+    margin: 1.5rem auto;
+  }
   .e-com{
     gap: 1rem;
     margin: 3.125rem auto;
@@ -228,11 +242,24 @@
   .cards{
     grid-template-columns: repeat(1, 20.5625rem);
     margin-left: -10px;
+    grid-gap: 1rem;
   }
   .collection .see-more{
     margin-top: 2rem;
+    right: -1.5rem;
   }
-
+  .invite{
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+  .invite h2, .invite p{
+    text-align: center;
+    line-height: normal;
+  }
+  .invite .invite-img{
+    margin-top: -30px;
+  }
+  
 
 
 
@@ -275,6 +302,24 @@
     transform: scale(.8);
     margin: -10px;
   }
+  .cards{
+    margin-left: 0px;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  gap: 0px;
+  
+}
+.card {
+  margin: -55px -40px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+  padding: 1rem 1rem 1.2rem;
+  transform: scale(.7);
+}
+.collection .see-more{
+  margin-top: 2rem;
+  right: 0rem;
+}
 
 
 
