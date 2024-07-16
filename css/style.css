@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* font imported */
+
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  list-style: none;
+  text-decoration: none;
+}
+
+.container{
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.heading{
+  color: rgb(58, 58, 58);
+  font-size: 3.25rem;
+  font-weight: 700;
+  line-height: 4.375rem;
+  letter-spacing: 0px;
+}
+
+.section-title{
+  color: rgb(10, 8, 38);
+  font-size: 2.375rem;
+  font-weight: 700;
+  line-height: 3.75rem;
+}
+
+.card-title{
+  color: rgb(24, 25, 31);
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 2.5rem;
+}
+
+.amount{
+  color: rgba(0, 0, 0, 0.87);
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.8rem;
+}
+
+.para{
+  color: rgb(58, 58, 58);
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.5rem;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.flex{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.btn{
+  /* border-radius: 41px; */
+  background: rgb(224, 44, 109);
+  padding: 0.625rem 1.5rem;
+  font-weight: 700;
+}
+/* global css ends */
+.sm-navbar{
+  display: none;
+}
+.navbar{
+  margin: 3.125rem auto;
+}
+
+.navbar h4{
+  font-weight: 700;
+}
+
+.navbar ul{
+  gap: 2.125rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar ul li a{
+  color: #3A3A3A;
+  text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+/* mobile device styles */
+@media screen and (max-width: 576px) {
+  .container{
+    max-width: 310px;
+  }
+  .navbar{
+    display: none;
+  }
+  .sm-navbar{
+    margin: 1.25rem auto;
+    display: flow-root;
+  }
+  .sm-navbar ul li a{
+    color: #3A3A3A;
+    font-weight: 700;
+    line-height: 1.2rem;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+/* tablet styles starts */
+@media screen and (max-width: 992px) and (min-width: 576px) {
+  .container{
+    max-width: 750px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+}
