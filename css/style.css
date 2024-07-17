@@ -160,9 +160,10 @@
   padding: 0.625rem 1.5rem;
   font-weight: 700;
   position: absolute;
-  right: 1.25rem;
+  right: 3rem;
   margin-top: 2.5rem;
   cursor: pointer;
+  padding: 0;
 }
 /* products section ends */
 /* invite section starts */
@@ -270,13 +271,15 @@ footer{
     margin: -10px;
   }
   .cards{
-    grid-template-columns: repeat(1, 20.5625rem);
-    margin-left: -10px;
+    grid-template-columns: repeat(1, 19rem);
+    margin: -240px -10px;
     grid-gap: 1rem;
+    transform: scale(.9);
   }
+  
   .collection .see-more{
     margin-top: 2rem;
-    right: -1.5rem;
+    right: .3rem;
   }
   .invite{
     flex-direction: column-reverse;
@@ -287,10 +290,19 @@ footer{
     line-height: normal;
   }
   .invite .invite-img{
-    margin-top: -30px;
+    width: 18rem;
+    overflow: hidden;
   }
-  .footer h4 , .footer p{
-    width: 450px;
+  .invite-img img{
+    width: 100%;
+  }
+  .footer{
+    font-size: 12px;
+    padding: 50px;
+  }
+  .footer p{
+    width: 250px;
+    font-size: 12px;
   }
 
 
